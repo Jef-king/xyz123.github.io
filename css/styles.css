@@ -1,0 +1,163 @@
+body {
+    display:block;
+    background-color: black;
+    max-width: 1280px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
+.logo {
+    text-align: center;
+    font-family: Ruda;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 0px;
+    /* 0% */
+    letter-spacing: 1.74px;
+}
+
+.nav {
+    color: #FFF;
+
+    text-align: center;
+    font-family: Ruda;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.crav {
+    position: relative;
+    align-items: center;
+}
+
+.crav p:first-child {
+    color: #FFF;
+    font-family: Quattrocento;
+    font-size: 101px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 108.5px;
+    /* 107.426% */
+    letter-spacing: 9.09px;
+    margin-bottom: 20px;
+}
+
+.crav p:last-child {
+    color: #FFF;
+
+    font-family: Ruda;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    /* 160% */
+    letter-spacing: 2.25px;
+    margin-top: 40px;
+    width: 70%
+}
+
+.line {
+    width: 40%;
+    height: 10px;
+    background-color: #f24c4c;
+    box-shadow: 3px 6px 18px 0px rgba(0, 0, 0, 0.25);
+}
+
+.c_img {
+    z-index: 1;
+    top: 0;
+    position: relative;
+}
+
+.c_img img {
+    max-width: 100%;
+}
+
+.craving {
+    z-index: 2;
+    top: 0;
+    position: absolute;
+    padding: 40px;
+}
+
+.about-1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Quattrocento;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 30px;
+}
+
+.about-2 {
+    color: #FFF;
+    font-family: Ruda;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 2.25px;
+    display: flex;
+}
+
+.menuhead {
+    color: #FFF;
+    text-align: center;
+    font-family: Quattrocento;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.menuhead p {
+    color: #FFF;
+    font-family: Ruda;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 2.25px;
+    display: flex;
+}
+.mlimg,.mlname{
+    display:inline-block;
+    width:280px;
+}
+.menulist{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin:20px;
+    gap:30px;
+    padding:20px;
+}
+.mlname p:first-child{
+    color: #F2C94C;
+font-family: Ruda;
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+}
+.mlname p:last-child{
+    color: #FFF;
+
+font-family: Ruda;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px;
+}
